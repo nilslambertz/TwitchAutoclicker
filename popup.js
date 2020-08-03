@@ -1,3 +1,6 @@
+let usernameData;
+let autoclickData;
+
 document.addEventListener('DOMContentLoaded', function() {
     let button = document.getElementById("usernameChangeButton");
     let checkbox = document.getElementById("autoclickInput");
@@ -16,14 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 chrome.storage.sync.get(['usernameData'], function(r) {
-    if(r.usernameData !== null) {
-        document.getElementById("usernameInput").value = r.usernameData;
+    if(r.usernameData !== undefined) {
+        usernameData = r.usernameData;
+        document.getElementById("usernameInput").value = usernameData
     }
 })
 
 
 chrome.storage.sync.get(['autoclickData'], function(r) {
-    if(r.autoclickData !== null) {
-        document.getElementById("autoclickInput").checked = r.autoclickData;
+    if(r.autoclickData !== undefined) {
+        autoclickData = r.autoclickData;
+        document.getElementById("autoclickInput").checked = autoclickData;
     }
 })
