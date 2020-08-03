@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 400px;
+    background-color: #94d8f3;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}

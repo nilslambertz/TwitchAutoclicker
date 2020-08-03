@@ -1,0 +1,19 @@
+{
+  "name": "TwitchAutoclicker",
+  "version": "1.0",
+  "description": "Für Habüb Ali!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["twitchScript.js"],
+      "run_at": "document_end"
+    }],
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
