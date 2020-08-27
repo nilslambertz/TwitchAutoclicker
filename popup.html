@@ -7,15 +7,19 @@
     <script src="popup.js"></script>
 </head>
 <body>
-    <h1>Moin Habüb</h1>
-    <hr>
-    <label for="usernameInput">Streamer-Username</label>
+    <label for="usernameInput">username</label>
     <br>
-    <input type="text" id="usernameInput" placeholder="habüb sven" value="syrinxx1337"/>
+    <input type="text" id="usernameInput" placeholder="moobot"/>
+    <div class="description">chat messages from this user will be searched for links</div>
+    <label for="websiteInput">website</label>
     <br>
-    <label for="autoclickInput">Autoklick? </label>
+    <input type="text" id="websiteInput" placeholder="twitch.tv"/>
+    <div class="description">links that contain this text will be clicked automatically (if enabled)</div>
+    <label for="autoclickInput">autoclick</label>
+    <br>
     <input type="checkbox" id="autoclickInput"/>
-    <br>
-    <button id="usernameChangeButton">Okay</button>
+    <br><br>
+    <button id="changeButton">Confirm</button>
+    <div class="description">You <span style="color: red">need to reload twitch</span> after confirming the changes</div>
 </body>
 </html>
