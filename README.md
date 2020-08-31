@@ -9,4 +9,4 @@ If **autoclick** is enabled, every chat-message from **username** will be search
 You can use a full URL as **website** or just part of the url, like *twitch.tv* or just *twitch*.
 
 ## Chrome Web Store
-You can add the extension to your browser from the [Chrome Web Store](https://chrome.google.com/webstore/detail/autoclicker-for-twitch/kllgjkfplnoopbcmaefkcgmhbjhkcogo)
+You can add the extension to your browser via the [Chrome Web Store](https://chrome.google.com/webstore/detail/autoclicker-for-twitch/kllgjkfplnoopbcmaefkcgmhbjhkcogo)
